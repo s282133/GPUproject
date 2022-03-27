@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1648308137 source:d:\politecnicoditorino\quintoanno\gpuprogramming\progetto\progettorsasequential\rsasequential\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1647367380 source:d:\politecnicoditorino\quintoanno\gpuprogramming\progetto\progettorsasequential\rsasequential\bignumbers.c
+	"bigNumbers.h"
+
+1647274154 d:\politecnicoditorino\quintoanno\gpuprogramming\progetto\progettorsasequential\rsasequential\bignumbers.h
+

@@ -82,7 +82,7 @@ int kernel(RSA_keyType* n_keys, RSA_decrypted_KeyType* decryptedN_publicKeys, in
         }   // if GCD is 1, then n_keys[i] and n_keys[j] are coprime
 
         if(a > 1) { // a and b share a common factor 
-            decryptedN_publicKeys[j].N = n_keys[i];
+            decryptedN_publicKeys[j].N = n_keys[i];         // non sono per niente sicuro degli indici
             decryptedN_publicKeys[j].p = a;
             decryptedN_publicKeys[j].q = n_keys[i] / a;
         }
